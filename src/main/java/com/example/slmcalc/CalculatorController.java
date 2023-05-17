@@ -20,6 +20,13 @@ public int sum (
 {
     return a + b;
 }
-
+    @RequestMapping("/calc/minus") //beispiel http://localhost:8080/calc/sum?a=5&b=4
+    public int minus (
+            @RequestParam int a,
+            @RequestParam int b
+    )
+    {
+        return a - b;
+    }
 
 }
