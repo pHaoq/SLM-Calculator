@@ -18,7 +18,7 @@ public int sum (
                 @RequestParam int b
 )
 {
-    return a + b +b;
+    return a + b;
 }
 
 
